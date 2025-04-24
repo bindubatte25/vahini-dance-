@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classes | Vahini Dance Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #323332;
+      color: #d5d8d1;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #262626;
+    }
+    .logo {
+      font-family: 'Monrovia - Modern Serif Font', serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #d8d5d1;
+    }
+    .logo img {
+      height: 80px;
+      margin-right: 30px;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+    .join-btn {
+      border: 1px solid #E6BC9B;
+      background: transparent;
+      color: #E6BC9B;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    table {
+      width: 90%;
+      margin: 4rem auto;
+      border-collapse: collapse;
+      background-color: #2b2b2b;
+    }
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border: 1px solid #444;
+    }
+    th {
+      background-color: #1f1f1f;
+      color: #E6BC9B;
+      font-weight: 600;
+    }
+    td strong {
+      color: #F2C397;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .level-details {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      padding: 2rem 4rem 4rem;
+      text-align: center;
+    }
+    .level-card {
+      flex: 1;
+      min-width: 280px;
+      max-width: 350px;
+    }
+    .level-card h3 {
+      color: #F2C397;
+      margin-bottom: 0.5rem;
+    }
+    .level-card em {
+      display: block;
+      font-size: 0.9rem;
+      color: #bbb;
+      margin-bottom: 1rem;
+    }
+    .level-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #d5d5d5;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      padding: 1rem 2rem;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: #888;
+      border-top: 1px solid #333;
+    }
+     .footer-bottom  {
+  color: #7d7b78;
+     
+      margin-left: 1rem;
+     width: 100%;
+      text-align: center;
+
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Vahini Logo">
+      <span>Vahini</span>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="classes.html">Classes</a>
+      <a href="programmes.html">Programmes</a>
+    </nav>
+    <a href="join.html" class="join-btn">Join Us</a>
+  </header>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Level</th>
+        <th>Duration</th>
+        <th>Class Frequency<br>Class Days</th>
+        <th>Monthly Fee<br>Eligibility</th>
+        <th>Focus Areas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Beginner</strong><br>(Ages 5+)</td>
+        <td>6 months (renewable)</td>
+        <td>2 classes/week (1 hour)<br>Saturday & Sunday</td>
+        <td>₹1,200<br>Open to all with interest</td>
+        <td>Basic adavus, mudras, body posture, rhythm sense, introductory theory</td>
+      </tr>
+      <tr>
+        <td><strong>Intermediate</strong><br>Ages 10+ or after 1–2 years of training</td>
+        <td>1 year</td>
+        <td>3 classes/week (1.5 hrs)<br>Tuesday, Thursday & Sunday</td>
+        <td>₹1,800<br>Completion of Beginner level</td>
+        <td>Jathis, basic repertoire items (Alarippu, Jatiswaram), expressive techniques</td>
+      </tr>
+      <tr>
+        <td><strong>Advanced</strong><br>By audition or Guru recommendation only</td>
+        <td>1–2 years</td>
+        <td>3–4 classes/week (2 hrs)<br>Monday, Wednesday, Friday, Sunday</td>
+        <td>₹2,500<br>Audition + Intermediate certificate</td>
+        <td>Full margam items, Tarangam, improvisation, performance grooming, theory depth</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <section class="level-details">
+    <div class="level-card">
+      <h3>Beginner</h3>
+      <em>(Ages 5+)</em>
+      <p>
+        Discover the joy of movement and rhythm.<br>
+        Students are introduced to:<br>
+        • Basic adavus (steps)<br>
+        • Hand gestures (mudras)<br>
+        • Postures and expressions (bhavas)<br>
+        • Rhythm (talom) and classical music<br><br>
+        
+      </p>
+    </div>
+    <div class="level-card">
+      <h3>Intermediate</h3>
+      <em>(Ages 10+ or 1–2 years of training)</em>
+      <p>
+        Refining form, expression, and stage presence.<br>
+        Students will learn:<br>
+        • Jathis (short dance sequences)<br>
+        • Abhinaya (facial expression)<br>
+        • Performance structure (jatiswarams, sabdams)<br>
+        • Clarity, stamina, and polish
+      </p>
+    </div>
+    <div class="level-card">
+      <h3>Advanced</h3>
+      <em>(By audition or Guru recommendation only)</em>
+      <p>
+        Mastering artistry with discipline.<br>
+        • Full-length items like varnams, padams<br>
+        • Brass plate dancing (Tarangam)<br>
+        • Natya Shastra-based theory<br>
+        • Stage and annual production readiness
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bottom">
+     <p>© 2025 Vahini Dance Academy. All Rights Reserved.</p>
+      <p>Privacy Policy | Terms & Conditions</p>
+        </div>
+
+  </footer>
+
+</body>
+</html>

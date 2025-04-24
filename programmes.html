@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Programmes | Vahini Dance Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #323332;
+      color: #d5d8d1;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #262626;
+
+    }
+   .logo {
+      font-family: 'Monrovia - Modern Serif Font', serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #d8d5d1;
+    }
+    .logo img {
+      height: 80px;
+      margin-right: 30px;
+
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .join-btn {
+      border: 1px solid #E6BC9B;
+      background: transparent;
+      color: #E6BC9B;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .events {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 4rem 2rem 2rem;
+    }
+    .event {
+      max-width: 250px;
+      text-align: center;
+    }
+    .event img {
+      width: 100%;
+      height: auto;
+     
+    }
+    .event-date {
+      font-size: 2rem;
+      color: #f2c397;
+      margin: 1rem 0 0.2rem;
+    }
+    .event-month {
+      font-size: 0.95rem;
+      color: #e6bc9b;
+    }
+    .event-desc {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 0.5rem;
+    }
+
+    .glimpses {
+      background-color: #2a2a2a;
+      padding: 3rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .glimpses-text {
+      flex: 1;
+      min-width: 300px;
+      max-width: 600px;
+      text-align: center;
+    }
+    .glimpses-text h2 {
+      color: #F2C397;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .glimpses-text p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #ddd;
+      text-align: center;
+    }
+    .glimpses-gallery {
+      flex: 1;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .glimpses-gallery video,
+    .glimpses-gallery img {
+      width: 210px;
+      height: 370px;
+      object-fit: cover;
+     
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      padding: 1rem 2rem;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: #888;
+      border-top: 1px solid #333;
+    }
+    .footer-bottom  {
+  color: #7d7b78;
+      text-decoration: none;
+      margin-left: 1rem;
+     width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Vahini Logo">
+      <span>Vahini</span>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="classes.html">Classes</a>
+      <a href="programmes.html">Programmes</a>
+    </nav>
+    <a href="join.html" class="join-btn">Join Us</a>
+  </header>
+
+  <section class="events">
+    <div class="event">
+      <img src="event1.jpg" alt="Event 1">
+      <div class="event-date">26</div>
+      <div class="event-month">May, 2025</div>
+      <div class="event-desc">Ravindra Bharathi Auditorium, Hyderabad<br>Natya Vaibhavam<br><small>A vibrant student showcase featuring traditional and contemporary Kuchipudi.</small></div>
+    </div>
+    <div class="event">
+      <img src="event2.jpg" alt="Event 2">
+      <div class="event-date">12</div>
+      <div class="event-month">July, 2025</div>
+      <div class="event-desc">Shilparamam Cultural Village<br>Deepotsavam<br><small>Devotional performances, Carnatic music, and dance storytelling.</small></div>
+    </div>
+    <div class="event">
+      <img src="event3.jpg" alt="Event 3">
+      <div class="event-date">18</div>
+      <div class="event-month">August, 2025</div>
+      <div class="event-desc">Vahini Studio, Banjara Hills<br>Tarang Utsav<br><small>Advanced student showcase with pure Kuchipudi presentations.</small></div>
+    </div>
+    <div class="event">
+      <img src="event4.jpg" alt="Event 4">
+      <div class="event-date">26</div>
+      <div class="event-month">May, 2025</div>
+      <div class="event-desc">Taramati Baradari, Hyderabad<br>Nritaya Samarpana<br><small>Open-air recital blending Kuchipudi with Indian heritage storytelling.</small></div>
+    </div>
+  </section>
+
+  <section class="glimpses">
+    <div class="glimpses-text">
+      <h2>Glimpses of past performances</h2>
+      <p>
+        Step into the vibrant world of Vahini through our visual archive — a celebration of timeless moments captured across years of dedication to Kuchipudi. From temple stages to grand cultural festivals, our gallery reflects elegance, discipline, and joy.<br><br>
+        Each frame reveals our essence — rehearsals, performances, workshops — not just dance, but devotion and artistic spirit.
+      </p>
+    </div>
+    <div class="glimpses-gallery">
+      <video src="video1.mp4" controls autoplay loop></video>
+      <img src="glimpse2.jpg" alt="Past Performance 2">
+      <img src="glimpse3.jpg" alt="Past Performance 3">
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bottom">
+      <p>© 2025 Vahini Dance Academy. All Rights Reserved.</p>
+      <p>Privacy Policy | Terms & Conditions</p>
+      </div>
+  
+  </footer>
+
+</body>
+</html>
